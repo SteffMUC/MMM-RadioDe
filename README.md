@@ -4,7 +4,7 @@ You can start and stop this web radio stream by hiding the module. It uses the s
 Currently the setup is rather simple. Potential extensions for the future might be selection of the radio station via remote control plugin, tuning of volume.
 Currently I do use the module to start in the evening the favorite radio channel of my children and to stop it again once they do sleep.
 
-![Magic-Mirror Module MMM-RadioDe screenshot](https://github.com/SteffMUC/MMM-RadioDe/blob/master/screenshot/MMM-RadioDe-Screenshot.jpg)
+![Magic-Mirror Module MMM-RadioDe screenshot](https://github.com/SteffMUC/MMM-RadioDe/blob/master/screenshot/MMM-RadioDe-Screenshot.png)
 
 
 ## Installation
