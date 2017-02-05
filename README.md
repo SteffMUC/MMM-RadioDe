@@ -9,7 +9,7 @@ Currently I do use the module to start in the evening the favorite radio channel
 
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/SteffMUC/MMM-RadioDe.git`. A new folder will appear navigate into it.
-2. Execute `npm install` to install the node dependencies.
+2. Execute `npm install` to install the node dependencies. (Currently not really necessary since there are no dependencies).
 
 ## Using the module
 
@@ -41,7 +41,7 @@ The following properties can be configured:
 	<tbody>
 		<tr>
 			<td><code>station</code></td>
-			<td>Station name of the desired radio station. Default (if nothing specified) is Antenne Bayern Hit for Kids. The station name can be obtained from radio.de. Enter you desired radio station into the search field for radio stations, start it one time in the browser, you can derive the station name from the html address. E.g. Antenne Bayern Hits for Kids resolves to "antennekids"
+			<td>Station name of the desired radio station. Default (if nothing specified) is Antenne Bayern Hit for Kids. The station name can be obtained from [Radio.de](http://www.radio.de). Enter you desired radio station into the search field for radio stations, start it one time in the browser, you can derive the station name from the html address. E.g. Antenne Bayern Hits for Kids resolves to "antennekids"
 		</tr>
 		<tr>
 			<td><code>api_key</code></td>
@@ -63,6 +63,23 @@ The following properties can be configured:
 
 ## Dependencies
 - Currently no dependencies
+
+## Example Configuration
+<code>
+{
+	module: 'MMM-RadioDe',
+	position: 'top_right', // This can be any of the regions.
+	config: {
+					// See 'Configuration options' for more information.
+					station: "antenne",
+					// can be obtained in embed section of station, e.g. http://antennekids.radio.de/
+					api_key: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+					//optional,
+					height:"92", // in pixel
+					width:"360", // in pixel
+	}
+},
+</code>
 
 The MIT License (MIT)
 =====================
