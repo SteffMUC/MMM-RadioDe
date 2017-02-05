@@ -1,10 +1,10 @@
 {
-  "name": "Magic-Mirror-Module-RadioDe“,
+  "name": "Magic-Mirror-Module-RadioDe",
   "version": "0.1.0",
-  "description": "This module shows a small iFrame with your selected radio station. You can start and stop the video stream via notification message.",
+  "description": "This module shows a small iFrame with your selected radio station.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SteffMUC/MMM-RadioDe“
+    "url": "git+https://github.com/SteffMUC/MMM-RadioDe"
   },
   "keywords": [
     "magic mirror",
@@ -12,7 +12,7 @@
     "Webradio",
     "module"
   ],
-  "author": "XXXX“,
+  "author": "SteffMUC",
   "contributors": "https://github.com/SteffMUC/MMM-RadioDe/graphs/contributors",
   "license": "MIT",
   "bugs": {
@@ -20,7 +20,5 @@
   },
   "homepage": "https://github.com/SteffMUC/MMM-RadioDe#readme",
 "dependencies": {
-    "node-omx": "latest",
-    "omxdirector": "latest"
     }
 }
