@@ -1,8 +1,11 @@
 # MMM-RadioDe
 This is an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). It can show/hide a webradio stream provided by [Radio.de](http://www.radio.de)
 You can start and stop this web radio stream by hiding the module. It uses the suspend/ resume method of MagicMirror for this.
-Currently it is rather simply setup. Potential extensions for the future might be selection of the radio channnel via remote control plugin, tuning of volume.
+Currently the setup is rather simple. Potential extensions for the future might be selection of the radio station via remote control plugin, tuning of volume.
 Currently I do use the module to start in the evening the favorite radio channel of my children and to stop it again once they do sleep.
+
+![Magic-Mirror Module MMM-RadioDe screenshot](https://github.com/SteffMUC/MMM-RadioDe/screenshot/MMM-RadioDe-Screenshot.jpg?raw=true)
+
 
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/SteffMUC/MMM-RadioDe.git`. A new folder will appear navigate into it.
