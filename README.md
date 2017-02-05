@@ -1,6 +1,7 @@
 # MMM-RadioDe
 
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://raw.githubusercontent.com/SteffMUC/MMM-RadioDe/master/LICENSE)
+[![Known Vulnerabilities](https://snyk.io/test/github/steffmuc/mmm-radiode/badge.svg)](https://snyk.io/test/github/steffmuc/mmm-radiode)
 
 This is an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). It can show/hide a webradio stream provided by [Radio.de](http://www.radio.de)
 You can start and stop this web radio stream by hiding the module. It uses the suspend/ resume method of MagicMirror for this.
