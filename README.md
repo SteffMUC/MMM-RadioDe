@@ -46,7 +46,7 @@ The following properties can be configured:
 	<tbody>
 		<tr>
 			<td><code>station</code></td>
-			<td>Station name of the desired radio station. Default (if nothing specified) is Antenne Bayern Hit for Kids. The station name can be obtained from <li> href="http://www.radio.de">Radio.de</li>. Enter you desired radio station into the search field for radio stations, start it one time in the browser, you can derive the station name from the html address. E.g. Antenne Bayern Hits for Kids resolves to "antennekids"
+			<td>Station name of the desired radio station. Default (if nothing specified) is Antenne Bayern Hit for Kids. The station name can be obtained from <li><a href="http://www.radio.de">Radio.de</a></li>. Enter you desired radio station into the search field for radio stations, start it one time in the browser, you can derive the station name from the html address. E.g. Antenne Bayern Hits for Kids resolves to "antennekids"
 		</tr>
 		<tr>
 			<td><code>api_key</code></td>
