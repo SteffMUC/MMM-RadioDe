@@ -67,7 +67,8 @@ The following properties can be configured:
 ## Dependencies
 - Currently no dependencies
 
-## Example Configuration
+## Example Configurations
+If you use this configuration you need to hide/ unhide this module manually, e.g. with [MMM-Remote-Control](https://github.com/Jopyth/MMM-Remote-Control)
 ````javascript
 {
 	module: 'MMM-RadioDe',
@@ -76,13 +77,29 @@ The following properties can be configured:
 					// See 'Configuration options' for more information.
 					station: "antenne",
 					// can be obtained in embed section of station, e.g. http://antennekids.radio.de/
-					api_key: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+					api_key: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
 					//optional,
 					height:"92", // in pixel
 					width:"360", // in pixel
 	}
 },
 ````
-
-## LICENSE
-- Please refer to LICENSE file.
+Alternatively you can use the module [MMM-ModuleScheduler](https://github.com/ianperrin/MMM-ModuleScheduler) to start and stop the radio stream automatically.
+````javascript
+{
+        module: 'MMM-RadioDe',
+        position: 'top_right', // This can be any of the regions.
+        classes: 'scheduler',
+        config: {
+                // PLAY RADIO BETWEEN 18:05 and 18:15 EVERY DAY
+                module_schedule: {from: '05 18 * * *', to: '15 18 * * *' },
+								// See 'Configuration options' for more information.
+								station: "antenne",
+								// can be obtained in embed section of station, e.g. http://antennekids.radio.de/
+								api_key: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+								//optional,
+								height:"92", // in pixel
+								width:"360", // in pixel
+                }       
+        },
+````				
