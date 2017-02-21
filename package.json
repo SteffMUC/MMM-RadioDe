@@ -1,6 +1,6 @@
 {
   "name": "Magic-Mirror-Module-RadioDe",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This module shows a small iFrame with your selected radio station.",
   "repository": {
     "type": "git",

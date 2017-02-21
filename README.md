@@ -105,4 +105,30 @@ Alternatively you can use the module [MMM-ModuleScheduler](https://github.com/ia
 								width:"360", // in pixel
                 }       
         },
-````				
+````
+
+## Daily operation
+The module can be controlled via notifications to change the currently playing radio station.
+If you have installed [MMM-Remote-Control](https://github.com/Jopyth/MMM-Remote-Control) you can change the radio station by accessing the web interface, e.g.:
+````javascript
+http://localhost:8080/remote?action=NOTIFICATION&notification=RADIO_STATION&payload={%22title%22:%22antennekids%22,%22type%22:%22notification%22}
+````
+You need to exchange `localhost` with your magic mirror address and put instead of `antennekids` your desired radio station.
+
+Alternatively you could schedule changes to the playing radio station via	the module [MMM-ModuleScheduler](https://github.com/ianperrin/MMM-ModuleScheduler), e.g.
+````javascript
+{
+				module: 'MMM-ModuleScheduler',
+				config: {
+						// change radio station to antenne at 21:17 each day
+						notification_schedule: {
+								notification: 'RADIO_STATION',
+								schedule: '17 21 * * *',
+								payload: {
+										type: "notification",
+										title: 'antenne'
+								}
+						}
+				}
+		},
+````			
