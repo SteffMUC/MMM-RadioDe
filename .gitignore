@@ -38,3 +38,6 @@ jspm_packages
 
 # Apple File System files
 .DS_Store
+
+# backup directory
+backup
