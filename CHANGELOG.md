@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 - requiresVersion: "2.1.0",
-- option to change playing radio station via notification    
+- option to change playing radio station via notification messages   
 
 ### Changed
 - Added documentation for daily operation in [README.md](README.md# Daily operation)

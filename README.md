@@ -113,7 +113,7 @@ If you have installed [MMM-Remote-Control](https://github.com/Jopyth/MMM-Remote-
 ````javascript
 http://localhost:8080/remote?action=NOTIFICATION&notification=RADIO_STATION&payload={%22title%22:%22antennekids%22,%22type%22:%22notification%22}
 ````
-You need to exchange `localhost` with your magic mirror address and put instead of `antennekids` your desired radio station.
+You need to exchange `localhost` with your magic mirror ip address / hostname and put instead of `antennekids` your desired radio station.
 
 Alternatively you could schedule changes to the playing radio station via	the module [MMM-ModuleScheduler](https://github.com/ianperrin/MMM-ModuleScheduler), e.g.
 ````javascript

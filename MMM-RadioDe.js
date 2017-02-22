@@ -13,7 +13,7 @@ Module.register("MMM-RadioDe",{
     player_color: "61ce42", //does not have any influence
     height:"92", // in pixel
     width:"360", // in pixel
-    // volume:"70%" not yet implemented
+    // volume:"70%" not yet implemented, to be done in later version
     },
     display: true,
     all_started: false,
